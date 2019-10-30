@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="Images/nc_vert-fc-oncharcoal.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="sass/main.css">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="Images/nc_vert-fc-oncharcoal.png" id="brand" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link disabled" id="title">Contact Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="calendar.html">Calendar</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="project.html">Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="new.html">New Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="applicationpage.html">Apply</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="myContainer">
+
+    <div class="container">
+      <div class="jumbotron text-center splash2">
+        <h1 class="jumboh1">Contact Us</h1>
+      </div>
+    </div>
+    <hr class="section-divider">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm">
+                <div id="ImageContainer">
+                  <img src="https://www.neumont.edu/cmsimages/faculty_jerrypayx.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="otherwrap">
+                  <h2>Mr. Jerry Pay</h2>
+                </div>
+                <div id="jerryText">
+                  <div id="cardInformation">
+                    <p>Manager of the Innovation Center
+                      <br /> 143 South Main St
+                      <br /> Salt Lake City, UT 84111
+                      <br />
+                      <strong>Hours:</strong> M-F, 8 a.m.-5 p.m.
+                      <br />
+                      <strong>Email:</strong>
+                      <a href="mailto:j.pay@neumont.edu">j.pay@neumont.edu</a>
+                      <br />
+                  </div>
+
+                </div>
+                <div class="otherwrap" id="btnContainer">
+                  <a href="https://www.neumont.edu/academics/our-faculty/jerry-pay.html" target="_blank" class="btn darkBtn" role="button">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr class="section-divider">
+
+      <div class="container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <div class="otherwrap">
+                <h2>Neumont</h2>
+              </div>
+              <div id="jerryText">
+                <p>College of Computer Science
+                  <br /> 143 South Main St
+                  <br /> Salt Lake City, UT 84111
+                  <br />
+                  <strong>Hours:</strong> M-F, 8 a.m.-5 p.m.
+                  <br />
+                  <strong>Phone:</strong> 1-888-638-6668 (front desk)
+                  <br />
+                  <strong>Email:</strong>
+                  <a href="mailto:info@neumont.edu">info@neumont.edu</a>
+                  <br />
+                  <strong>Location:</strong> See Map Below
+                  <br/>
+              </div>
+              <div class="otherwrap" id="btnContainer">
+                <a href="http://neumont.smartcatalogiq.com/en/2017-2018/Catalog/About-Neumont-University/Neumont-History" class="btn darkBtn"
+                  tagret="_blank" role="button">Our History</a>
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div id="ImageContainer">
+                <img src="https://www.downtownrising.com/_files/images/neumontu.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="section-divider">
+  <div class="container-fluid wrap">
+    <div id="map-canvas"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+  </div>
+  <hr class="section-divider">
+  <div class="formBox wrap">
+    <div id="wrapper">
+
+      <div id="fBox">
+        <h2>
+          <span class="thin">Message Us</span>
+        </h2>
+        <p>Please fill out the following information to receive additional information.</p>
+        <form class="messageForm" name="myForm" method="post" enctype="text/plain">
+          <input id="fname" type="text" placeholder="First Name*" Name="First Name" required>
+          <input id="lname" type="text" placeholder="Last Name*" name="Last Name" required>
+          <input id="email" type="email" placeholder="Email" name="Email" required>
+          <input id="message" type="text" placeholder="Message" name="Message">
+          <div class="container subBtnContainer wrap">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <div class="mainFooter" id="myContainer">
+    <div class="row">
+      <div class="col-sm footerLeft">
+        <h5>
+          UNITING BUSINESS, TECHNOLOGY, AND CREATIVITY TO EDUCATE THE INNOVATORS OF TOMORROW
+        </h5>
+        <p>
+          Since 2003, Neumont College of Computer Science has been the training ground for modern-day tech heroes to hone their analytical,
+          creative, and coding skills to create the software that will change the world. Our students earn industry-proven
+          degrees focused on computer science, while developing a portfolio of real-world experience through project-based
+          learning.
+        </p>
+        <p>
+          Neumont College of Computer Science is accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC).
+        </p>
+        <p>
+          © NEUMONT COLLEGE OF COMPUTER SCIENCE. ALL RIGHTS RESERVED.
+          <br> 143 SOUTH MAIN STREET, SALT LAKE CITY, UTAH 84111
+          <br>
+          <a href="tel:18886386668">1-888-NEUMONT (1-888-638-6668)</a>
+        </p>
+      </div>
+      <div class="col-sm">
+        <h5>
+          BACHELOR OF SCIENCE DEGREE PROGRAMS
+        </h5>
+        <p>
+          <a href="bscs.html">BSCS: Computer Science</a>
+          <br>
+          <a href="bsgd.html">BSGD: Game Development</a>
+          <br>
+          <a href="bsis.html">BSIS: Information Systems</a>
+          <br>
+          <a href="bstm.html">BSTM: Tech Management</a>
+          <br>
+          <a href="bswd.html">BSWD: Web Development</a>
+        </p>
+        <h5>
+          CAREERS AT NEUMONT
+        </h5>
+        <p>
+          <a href="about-us/careers-at-Neumont.html">Join Our Team</a>
+        </p>
+        <h5>
+          SHOP NEUMONT
+        </h5>
+        <p>
+          <a href="http://gear.neumont.edu/" target="_blank">Gear Store</a>
+        </p>
+      </div>
+      <div class="col-sm">
+        <h5>
+          QUICK LINKS
+        </h5>
+        <p>
+          <a href="academiccalendar/index.html">Academic Calendar
+            <br>
+          </a>
+          <a href="consumerdisclosures.html">Consumer Disclosures
+            <br>
+          </a>
+          <a href="/about-us/contact-us.html">Contact Us</a>
+          <br>
+          <a href="catalog.html">Course Catalog</a>
+          <br>
+          <a href="#">I</a>
+          <a href="about-us/documents.html">mportant Documents
+            <br>
+          </a>
+          <a href="neumontreviews.html">Neumont Reviews</a>
+          <br>
+          <a href="newsevents.html">News &amp; Events</a>
+          <br>
+          <a href="privacypolicy.html">Privacy Policy</a>
+          <br>
+          <a href="scholarships/index.html">Scholarships</a>
+          <br>
+          <a href="/site-map.html">Site Map
+            <br>
+          </a>
+          <a href="top10/index.html">Top Advantages</a>
+          <br>
+          <a href="tuition/index.html">Tuition&nbsp;</a>
+        </p>
+      </div>
+    </div>
+    <div id="followUs">
+      <span>Follow Us:</span>
+      <a href="https://www.twitter.com/neumontcs">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="https://www.facebook.com/neumont">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.youtube.com/c/neumont">
+        <i class="fab fa-youtube-square"></i>
+      </a>
+      <a href="https://instagram.com/neumontcs">
+        <i id="instagram" class="fab fa-instagram"></i>
+      </a>
+      <a href="https://blog.neumont.edu/">
+        <i class="fab fa-blogger-b"></i>
+      </a>
+    </div>
+  </div>
+  <script src="scripts/map_script.js"></script>
+  <script src="main.bundle.js"></script>
+
+</body>
+
+</html>

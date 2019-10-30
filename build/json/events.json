@@ -1,0 +1,47 @@
+{
+    "eventsList": [
+        {
+            "eventDate": "May 15",
+            "eventDescription": "Startup Speed Interview Session",
+            "eventTime": "11 AM",
+            "eventLocation": "Lassonde Center"
+        },
+        {
+            "eventDate": "May 15",
+            "eventDescription": "Hours with Experts: Legal Support",
+            "eventTime": "12 PM",
+            "eventLocation": "Lassonde Center"
+        },
+        {
+            "eventDate": "May 16",
+            "eventDescription": "Workshops: Financial Models",
+            "eventTime": "12 PM",
+            "eventLocation": "Lassonde Center"
+        },
+        {
+            "eventDate": "May 22",
+            "eventDescription": "Hours with Experts: Accounting",
+            "eventTime": "12 PM",
+            "eventLocation": "Lassonde Center"
+        },
+        {
+            "eventDate": "May 23",
+            "eventDescription": "Innovation Center Update",
+            "eventTime": "7 PM",
+            "eventLocation": "Neumont Innovation Center"
+        },
+        {
+            "eventDate": "May 25",
+            "eventDescription": "Tiger Fish Tank",
+            "eventTime": "7 PM",
+            "eventLocation": "Neumont Innovation Center"
+        },
+        {
+            "eventDate": "May 31",
+            "eventDescription": "Get Seeded Application Process",
+            "eventTime": "7 PM",
+            "eventLocation": "Neumont Innovation Center"
+        }
+
+    ]
+}

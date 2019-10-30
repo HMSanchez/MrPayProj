@@ -1,0 +1,40 @@
+{
+    "projectList": [
+        {
+            "personName": "Eric Negrete",
+            "projectName": "Collage",
+            "projectImageSrc":"Images/erick_color.jpg",
+            "projectDesc": "My project idea: A yelp or craigslist type of website that enables anyone to do work or teach a subject of any kind. A review, and certification system will be created to help new users prove their worth and get more job requests.<br/>Why I want this idea to succeed: I'd like to see this website/application provide people with different ways to make money easily, besides YouTube, and being an Uber driver. Also with everyone having new ways to learn and teach, it'll hopefully make the world a slightly better place. "
+        },
+        {
+            "personName": "Emily Remy",
+            "projectName": "Signlate",
+            "projectImageSrc":"Images/emily_color.jpg",            
+            "projectDesc": "Signlate is a user-friendly, two-way translation app that will translate not only English to ASL but also ASL to English. It is meant to be a lifestyle app that can be tailored to the needs of its users. It uses 3D modeling, instead of actors, allowing it to be updated with new words and dialects. SignLate's main feature is how it allows you to look up a specific sign through keywords and tags to find its meaning in English. My future plans for the app are to implement Augmented Reality, and other languages such as British sign language, and Spanish sign language."
+        },
+        {
+            "personName": "Sophie Wargo",
+            "projectName": "Wine and Dine",
+            "projectImageSrc":"Images/sophie_color.jpg",            
+            "projectDesc": "This completely frontend (for now) application was built as a final project for my Advanced Web Scripting class. The requirements were to make it solely frontend while using an outside API (Yummly) and a frontend framework (React). This was my first experience developing with React.<br/>This application asks users to select dietary options so it can return a proper meal accompanied with a wine that would pair well based on flavors and ingredients. This project is currently in further development with plans to have it allow users to save wine and meal pairings and share them on social media."
+        },
+        {
+            "personName": "Priya Vora",
+            "projectName": "Step Up & Inspire",
+            "projectImageSrc":"Images/priya_color.jpg",            
+            "projectDesc": "Several resources and platforms like Khan Academy, Udemy, and Pluralsight are available online in the strive to make education easier for students. With the new technological changes and innovations around the world, it is often difficult for educational organizations to provide students with updated resources to enhance student's future. Many platforms that offer additional resources on educational and professional subjects are often outdated, or not specific to most educational facilities. This process stagnates numerous student's progress towards their academic and career success. This proposed invention focuses on providing students a platform with resources, teacher's featuring tutorials, personal lock timer and a public messaging system between students and teachers for their academic purposes. This technology will boost student's motivation and focus to achieve their goals and develop their skills in various areas."
+        },
+        {
+            "personName": "Wyatt Hite",
+            "projectName": "Smart Skier Safety",
+            "projectImageSrc":"Images/wyatt_color.jpg",            
+            "projectDesc": "A project working to implement smartphone technology to improve operational efficiency and accessibility of Ski Patrol and resort Public Safety departments to make the slopes safer for everyone."
+        },
+        {
+            "personName": "Morgan Smith",
+            "projectName": "Publish.ME",
+            "projectImageSrc":"Images/morgan_color.jpg",            
+            "projectDesc": "Publish.ME is an online service which improves the discoverability of talented writers. Too often great writers disappear in the sea of mediocre writers, and they never see the light of day. Publish.ME elevates talented writers, by customer desirability and AI, and presents them to professionals looking to buy stories."
+        }
+    ]
+}
